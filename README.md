@@ -60,3 +60,11 @@ Searching is the process of finding a particular element (called **key**) within
    - Else, set `high = mid - 1`.  
 6. If the loop ends without finding the key, return -1 (element not found).  
 7. **STOP**
+
+## CONCLUSION
+
+In this experiment, we implemented **Binary Search**, an efficient searching algorithm for sorted arrays.  
+We learned that Binary Search significantly reduces the number of comparisons compared to Linear Search, achieving a **time complexity of O(log n)**.  
+The experiment demonstrated how dividing the search space in half repeatedly can quickly locate an element or determine its absence.  
+We also understood the importance of maintaining a sorted array before applying Binary Search.
+
